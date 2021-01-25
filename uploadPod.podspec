@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-    练习一下，仅此而已
+    练习一下，仅此而已 WTModule是工具类
   
                    DESC
 
@@ -92,10 +92,9 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "one"
-  spec.exclude_files = "one/Exclude"
+    spec.source_files = 'WTModule/Classes/**/*'
 
-  # spec.public_header_files = "one/**/*.h"
+  # spec.public_header_files = "one.txt/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
