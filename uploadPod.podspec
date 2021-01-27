@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
 spec.name         = "uploadPod"
 spec.version      = "0.0.3"
 spec.summary      = "练习一下，仅此而已"
-spec.frameworks =  "Foundation","UIKit"
+
 
 spec.description  = <<-DESC
 练习一下，仅此而已 WTModule是工具类
@@ -28,6 +28,6 @@ spec.author             = { "ZT" => "3193152800@qq.com" }
 
 spec.source       = { :git => "https://github.com/ZT28TZ/uploadPod.git", :tag => "v0.0.3" }
 
-spec.source_files = "one"
+  spec.source_files = 'one/one/two/**/*'
 
 end
