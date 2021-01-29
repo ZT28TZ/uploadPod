@@ -13,4 +13,9 @@
     NSLog(@"吃");
 }
 
++(void)run{
+    
+    NSLog(@"跑");
+}
+
 @end
