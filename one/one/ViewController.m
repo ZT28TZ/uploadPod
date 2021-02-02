@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import "ZTMediator.h"
+#import "ZTMediator+ZTPersonVC.h"
 
 @interface ViewController ()
 
@@ -19,6 +21,13 @@
     self.title = @"one";
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    
+    UIViewController *con = [[ZTMediator sharedInstance] personInfoWithName:@"寒江" age:18];
+    [self.navigationController pushViewController:con animated:YES];
     
 }
 

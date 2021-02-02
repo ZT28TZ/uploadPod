@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEA3D04C25C8E7F6008084C1 /* ZTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3D04B25C8E7F6008084C1 /* ZTMediator.m */; };
+		EEA3D05225C8F6C0008084C1 /* ZTPersonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3D05125C8F6C0008084C1 /* ZTPersonVC.m */; };
+		EEA3D06125C8F997008084C1 /* ZTMediator+ZTPersonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3D06025C8F997008084C1 /* ZTMediator+ZTPersonVC.m */; };
+		EEA3D06725C91EAD008084C1 /* Target_ZTPersonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA3D06625C91EAD008084C1 /* Target_ZTPersonVC.m */; };
 		EEC1364425C14A7B002435C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1364325C14A7B002435C6 /* AppDelegate.m */; };
 		EEC1364A25C14A7B002435C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1364925C14A7B002435C6 /* ViewController.m */; };
 		EEC1364D25C14A7B002435C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC1364B25C14A7B002435C6 /* Main.storyboard */; };
@@ -15,7 +19,6 @@
 		EEC1365525C14A7E002435C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1365425C14A7E002435C6 /* main.m */; };
 		EEC1365F25C14A7E002435C6 /* oneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1365E25C14A7E002435C6 /* oneTests.m */; };
 		EEC1366A25C14A7E002435C6 /* oneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1366925C14A7E002435C6 /* oneUITests.m */; };
-		EEC1368925C14F9F002435C6 /* per.m in Sources */ = {isa = PBXBuildFile; fileRef = EEC1368825C14F9F002435C6 /* per.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEA3D04A25C8E7F6008084C1 /* ZTMediator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTMediator.h; sourceTree = "<group>"; };
+		EEA3D04B25C8E7F6008084C1 /* ZTMediator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTMediator.m; sourceTree = "<group>"; };
+		EEA3D05025C8F6C0008084C1 /* ZTPersonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTPersonVC.h; sourceTree = "<group>"; };
+		EEA3D05125C8F6C0008084C1 /* ZTPersonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTPersonVC.m; sourceTree = "<group>"; };
+		EEA3D05F25C8F997008084C1 /* ZTMediator+ZTPersonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZTMediator+ZTPersonVC.h"; sourceTree = "<group>"; };
+		EEA3D06025C8F997008084C1 /* ZTMediator+ZTPersonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ZTMediator+ZTPersonVC.m"; sourceTree = "<group>"; };
+		EEA3D06525C91EAD008084C1 /* Target_ZTPersonVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_ZTPersonVC.h; sourceTree = "<group>"; };
+		EEA3D06625C91EAD008084C1 /* Target_ZTPersonVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_ZTPersonVC.m; sourceTree = "<group>"; };
 		EEC1363F25C14A7B002435C6 /* one.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = one.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC1364225C14A7B002435C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEC1364325C14A7B002435C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -52,8 +63,6 @@
 		EEC1366525C14A7E002435C6 /* oneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC1366925C14A7E002435C6 /* oneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oneUITests.m; sourceTree = "<group>"; };
 		EEC1366B25C14A7E002435C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEC1368725C14F9F002435C6 /* per.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = per.h; sourceTree = "<group>"; };
-		EEC1368825C14F9F002435C6 /* per.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = per.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +148,14 @@
 		EEC1368625C14F87002435C6 /* two */ = {
 			isa = PBXGroup;
 			children = (
-				EEC1368725C14F9F002435C6 /* per.h */,
-				EEC1368825C14F9F002435C6 /* per.m */,
+				EEA3D04A25C8E7F6008084C1 /* ZTMediator.h */,
+				EEA3D04B25C8E7F6008084C1 /* ZTMediator.m */,
+				EEA3D05F25C8F997008084C1 /* ZTMediator+ZTPersonVC.h */,
+				EEA3D06025C8F997008084C1 /* ZTMediator+ZTPersonVC.m */,
+				EEA3D06525C91EAD008084C1 /* Target_ZTPersonVC.h */,
+				EEA3D06625C91EAD008084C1 /* Target_ZTPersonVC.m */,
+				EEA3D05025C8F6C0008084C1 /* ZTPersonVC.h */,
+				EEA3D05125C8F6C0008084C1 /* ZTPersonVC.m */,
 			);
 			path = two;
 			sourceTree = "<group>";
@@ -275,9 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC1364A25C14A7B002435C6 /* ViewController.m in Sources */,
+				EEA3D05225C8F6C0008084C1 /* ZTPersonVC.m in Sources */,
+				EEA3D06725C91EAD008084C1 /* Target_ZTPersonVC.m in Sources */,
 				EEC1364425C14A7B002435C6 /* AppDelegate.m in Sources */,
 				EEC1365525C14A7E002435C6 /* main.m in Sources */,
-				EEC1368925C14F9F002435C6 /* per.m in Sources */,
+				EEA3D06125C8F997008084C1 /* ZTMediator+ZTPersonVC.m in Sources */,
+				EEA3D04C25C8E7F6008084C1 /* ZTMediator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
