@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 
 
 spec.name         = "uploadPod"
-spec.version      = "0.0.4"
+spec.version      = "0.0.5"
 spec.summary      = "练习一下，仅此而已"
 
 
@@ -26,7 +26,7 @@ spec.license      = "MIT"
 
 spec.author             = { "ZT" => "3193152800@qq.com" }
 
-spec.source       = { :git => "https://github.com/ZT28TZ/uploadPod.git", :tag => "v0.0.4" }
+spec.source       = { :git => "https://github.com/ZT28TZ/uploadPod.git", :tag => "v0.0.5" }
 
   spec.source_files = 'one/one/two/**/*'
 
