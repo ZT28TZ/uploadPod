@@ -30,9 +30,4 @@
     
 }
 
--(void)Action_PersonVC{
-    
-    NSLog(@"我，必须的实现");
-}
-
 @end
